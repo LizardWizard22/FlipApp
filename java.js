@@ -2,6 +2,12 @@ var board = document.getElementById('board');
 var tilesflipped = [];
 var tilesMatch = [];
 
+function twoTiles(){
+  if(tilesflipped.length >= 2 ){
+      board.style.pointerEvents = 'none';
+  }
+}
+
 function fliptile(event){
     'use strict';
     var tiles = Array.from(board.querySelectorAll('section'));
@@ -12,6 +18,7 @@ function fliptile(event){
      console.log(tilesflipped);
      tilesMatch.push(event.target.nextElementSibling.innerHTML)
      console.log(tilesMatch)
+     twoTiles();
       }
    }
 }
