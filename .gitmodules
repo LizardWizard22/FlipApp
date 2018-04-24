@@ -1,0 +1,3 @@
+[submodule " gource"]
+	path = " gource"
+	url = git clone 'https://github.com/acaudwell/Gource.git' && \\ cd Gource && \\ gource
