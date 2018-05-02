@@ -24,7 +24,6 @@ function drawBoard(event){
 
         board.insertAdjacentHTML('beforeend', content);
     }
-    alert('er du her?')
 }
 
 Array.prototype.doubleShuffle = function (){
