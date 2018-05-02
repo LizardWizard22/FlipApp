@@ -112,3 +112,7 @@ backface-visibility: hidden;
     z-index: 1;
     transform: rotateY(180deg);
 }
+.reward{
+    box-shadow:0 0 3px 5px  rgba(15, 160, 0, 0.7);
+
+}
