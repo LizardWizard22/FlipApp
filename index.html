@@ -12,8 +12,8 @@
     <div id="welcome">
     <h1>Welcome to the memory game app</h1>
     <p>Choose Number of Tiles</p>
-    <form id="playgame">
-        <input type="radio" name="level" value="16" id="sixteen" > <label for="sixteen">16</label>
+    <form id="playgame" method="POST">
+        <input type="radio" name="level" value="16" id="sixteen" checked> <label for="sixteen">16</label>
         <input type="radio" name="level" value="20" id="twenty"><label for="twenty">20</label>
         <input type="radio" name="level" value="24" id="twentyfour"><label for="twentyfour">24</label>
     
@@ -21,27 +21,12 @@
     </form>
 </div>
 <div id="board">
-       <section>
-            <div class="front"></div>
-            <div class="back">A</div>
-       </section>
-       <section>
-            <div class="front"></div>
-            <div class="back">A</div>
-        </section>
-        <section>
-            <div class="front"></div>
-            <div class="back">B</div>
-        </section>
-        <section>
-            <div class="front"></div>
-            <div class="back">B</div>
-        </section>
+
 </div>
 <div id="message">
     <p>Congrats</p>
     <button>Play Again</button>
 </div>
-</body>
 <script src="java.js"></script>
+</body>
 </html>
