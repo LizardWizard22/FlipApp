@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+    
+</head>
+<body>
+    <div id="welcome">
+    <h1>Welcome to the memory game app</h1>
+    <p>Choose Number of Tiles</p>
+    <form id="playgame" method="POST">
+        <input type="radio" name="level" value="16" id="sixteen" checked> <label for="sixteen">16</label>
+        <input type="radio" name="level" value="20" id="twenty"><label for="twenty">20</label>
+        <input type="radio" name="level" value="24" id="twentyfour"><label for="twentyfour">24</label>
+    
+        <button type="submit"> Play Game </button>
+    </form>
+</div>
+<div id="board">
+
+</div>
+<div id="message">
+    <p>Congrats</p>
+    <button>Play Again</button>
+</div>
+<script src="java.js"></script>
+</body>
+</html>
